@@ -22,7 +22,7 @@ Unlike traditional multi-boot solutions that require repartitioning internal sto
 * **Hardware & Vendor Passthrough:** Because the host kernel, radio interface layer (RIL), modem, and low-level vendor HAL services remain active underneath, the guest OS inherits hardware initialization without needing separate kernel builds.
 * **Bidirectional Switching:** You initiate the transition from the companion manager app inside One UI and return using the **Back to One UI** trigger app inside the guest OS—or via a hardware emergency fallback by holding **Volume Up + Volume Down** for 3 seconds.
 
-This project evolved from [OneLineage](https://github.com/WeWaffles/OneLineage) by WeWaffles, and builds its guest system images using [MysticGSI](https://github.com/MysticGSI/mysticgsi). See [Credits](#credits) for full attributions.
+This project evolved from [OneLineage](https://github.com/WeWaffles/OneLineage and https://github.com/fahadalijaved/OneOS) , and builds its guest system images using [MysticGSI](https://github.com/MysticGSI/mysticgsi). See [Credits](#credits) for full attributions.
 
 > [!WARNING]
 > **EXPERIMENTAL SOFTWARE — HIGH RISK OF DATA LOSS.**
