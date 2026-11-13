@@ -12,8 +12,7 @@
 ---
 
 ## Overview & Architecture
-
-This project enables running a complete, secondary Android operating system directly alongside One UI on a rooted Samsung Galaxy device, allowing instant switching between the two environments without modifying system partitions or flashing custom ROMs. 
+oneEX project enables running a complete, secondary Android operating system directly alongside One UI on a rooted Samsung Galaxy device, allowing instant switching between the two environments without modifying system partitions or flashing custom ROMs. 
 
 Unlike traditional multi-boot solutions that require repartitioning internal storage, modifying bootloaders, or rebooting into separate kernels, this architecture operates entirely at the userspace and container level:
 
@@ -61,6 +60,10 @@ Feature-by-feature functionality logs across versions are tracked in [docs/compa
 | **HyperOS** *(Xiaomi 18 Fold)* | Galaxy Z Fold8, Z Fold7, S26 Ultra, S26, S25 Ultra, S25+, S25, S25 Edge, S24 Ultra, S23 Ultra, S23, Z Flip5, A57, A56, A36, A27, A17, A17 5G, A16 4G, A16 5G, A07 |
 | **Nothing OS 5.0** | Galaxy Z Fold8 Ultra, Z Fold7, Z Fold6, S26 Ultra, S26, S25 Ultra, S25+, S25, S25 Edge, S24 Ultra |
 | **OriginOS 7** | Galaxy Z Fold8 Ultra, Z Fold7, S26 Ultra, S25+, S25 |
+FLYME UI [ANY VERSION NEED TESTERS UNTESTED]
+realmeui [NEED TESTERS]  
+MYOS NEED TESTERS]
+FAIRPHONE UI NEED TESTERS
 | **OxygenOS 16** *(Android 16, for One UI 8 hosts)* | Galaxy S22 Ultra *(both chips)*, S22+, S22 *(Snapdragon)*, S23 FE, A34 5G, A24, A15, M55s, A16 5G (`SM-S166V`) |
 
 ---
@@ -126,7 +129,7 @@ Do not skip any of these prerequisites:
    * **Returning to One UI:** Open the **Back to One UI** app inside the guest launcher (usually performs a warm userspace swap without rebooting), or press and hold **Volume Up + Volume Down** for 3 seconds.
    * **Emergency Recovery:** If the boot animation freezes, hold **Power + Volume Down** until the device hard-reboots back into One UI. *(If you use non-persistent root, re-activate your root environment after rebooting.)*
 
----
+--- [MANY THANKS TO ONEOS DEVS]
 
 ## Multi-System Management, Reporting & Cleanup
 
